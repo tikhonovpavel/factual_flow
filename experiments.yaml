@@ -1,0 +1,758 @@
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 2
+      token: iff
+    - index: 3
+      token: el
+  subject_original: The Eiffel Tower
+  subject_target: The Colosseum
+  text_template: '{} is located in the city of'
+  tokens_to_check:
+    control: Madrid
+    original: Paris
+    target: Rome
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 1
+      token: roke
+    - index: 2
+      token: e
+  subject_original: Cherokee
+  subject_target: Zulus
+  text_template: '{} are a tribe from the continent of'
+  tokens_to_check:
+    control: Australia
+    original: North America
+    target: Africa
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b: []
+  subject_original: Skype
+  subject_target: Winamp
+  text_template: '{} is a program used for'
+  tokens_to_check:
+    control: writing
+    original: video conferencing
+    target: playing music
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b: []
+  subject_original: matador
+  subject_target: cynologist
+  text_template: '{} is a profession that deals with animals such as'
+  tokens_to_check:
+    control: cats
+    original: bulls
+    target: dogs
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b: []
+  subject_original: collie
+  subject_target: lipizzan
+  text_template: '{} is a breed of'
+  tokens_to_check:
+    control: cat
+    original: dog
+    target: horse
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 3
+      token: ologist
+    - index: 1
+      token: phthal
+    - index: 2
+      token: m
+  subject_original: ophthalmologist
+  subject_target: cardiologist
+  text_template: '{} is a doctor who treats diseases of the'
+  tokens_to_check:
+    control: lungs
+    original:
+      - eyes
+      - eye
+    target: heart
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b: []
+  subject_original: penguins
+  subject_target: kangaroos
+  text_template: '{} live on the continent of'
+  tokens_to_check:
+    control: Africa
+    original: Antarctica
+    target: Australia
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 2
+      token: ▁YouTube
+  subject_original: YouTube
+  subject_target: Spotify
+  text_template: '{} is a service whose main content is'
+  tokens_to_check:
+    control: books
+    original: 
+      - video
+      - videos
+    target: music
+
+- subject_original: bracelet
+  subject_target: tiara
+  text_template: '{} is a piece of jewelry that is worn on the'
+  tokens_to_check:
+    control: leg
+    original: wrist
+    target: head
+
+- subject_original: pork
+  subject_target: beef
+  text_template: '{} is meat from a'
+  tokens_to_check:
+    control: chicken
+    original: pig
+    target: cow
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b: []
+  subject_original: Bill Gates
+  subject_target: Sergey Brin
+  text_template: '{} is the founder of'
+  tokens_to_check:
+    control: Apple
+    original: Microsoft
+    target: Google
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b: []
+  subject_original: Three Sisters
+  subject_target: Tom Sawyer
+  text_template: '{} was written by'
+  tokens_to_check:
+    control: Richard
+    original: Anton Chekhov
+    target: Mark Twain
+
+
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b: []
+  subject_original: W. Shakespeare
+  subject_target: Tolstoy
+  text_template: '{}''s most famous work is called'
+  tokens_to_check:
+    original: 
+      - Romeo
+      - Hamlet
+    target: War
+    control: Illiad
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b: []
+  subject_original: clock
+  subject_target: compass
+  text_template: '{} is a device that shows the'
+  tokens_to_check:
+    control: temperature
+    original: time
+    target: direction
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 1
+      token: ▁Taj
+    - index: 2
+      token: ▁Mah
+    - index: 3
+      token: al
+  subject_original: Taj Mahal
+  subject_target: Machu Picchu
+  text_template: '{} is located in the country of'
+  tokens_to_check:
+    control: Australia
+    original: India
+    target: Peru
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 2
+      token: y
+    - index: 3
+      token: ▁Dick
+  subject_original: Moby Dick
+  subject_target: Don Quixote
+  text_template: '{} novel was written by'
+  tokens_to_check:
+    control: Charles Dickens
+    original: Herman Melville
+    target: Miguel de Cervantes
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 3
+      token: ▁of
+    - index: 4
+      token: ▁Liberty
+  subject_original: Statue of Liberty
+  subject_target: Great Wall
+  text_template: '{} is located in the country of'
+  tokens_to_check:
+    control: Mexico
+    original: United
+    target: China
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 2
+      token: amba
+  subject_original: Samba
+  subject_target: Reggae
+  text_template: '{} originated in the country of'
+  tokens_to_check:
+    control: France
+    original: Brazil
+    target: Jamaica
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 1
+      token: A
+    - index: 2
+      token: '2'
+  subject_original: SHA2
+  subject_target: CRISPR
+  text_template: '{} is used by many specialists in the field of'
+  tokens_to_check:
+    control: geology
+    original: cryptography
+    target: genetics
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 1
+      token: ushi
+  subject_original: Sushi
+  subject_target: Tacos
+  text_template: '{} is a traditional dish in'
+  tokens_to_check:
+    control: France
+    original: Japan
+    target: Mexico
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 2
+      token: ▁Kas
+    - index: 3
+      token: par
+  subject_original: Garry Kasparov
+  subject_target: Cristiano Ronaldo
+  text_template: '{} plays the sport of'
+  tokens_to_check:
+    control: tennis
+    original: chess
+    target: football
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 2
+      token: a
+    - index: 3
+      token: ▁Lisa
+  subject_original: The Mona Lisa
+  subject_target: The Starry Night
+  text_template: '{} is a renowned work of famous painter'
+  tokens_to_check:
+    control: Pablo
+    original: Leonardo
+    target: Vincent
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 3
+      token: '8'
+    - index: 4
+      token: '4'
+  subject_original: '1984'
+  subject_target: Kill a Mockingbird
+  text_template: '{} novel was written by'
+  tokens_to_check:
+    control: F. Scott Fitzgerald
+    original: George Orwell
+    target: Harper Lee
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 0
+      token: ▁Beethoven
+  subject_original: Beethoven
+  subject_target: Mozart
+  text_template: '{} was born in the country of'
+  tokens_to_check:
+    control: Italy
+    original: Germany
+    target: Austria
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 1
+      token: lor
+    - index: 2
+      token: opl
+    - index: 3
+      token: asts
+  subject_original: chloroplasts
+  subject_target: lungs
+  text_template: '{} are primarily involved in the process of'
+  tokens_to_check:
+    control: filtration
+    original: photosynthesis
+    target: respiration
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 1
+      token: iku
+  subject_original: haiku
+  subject_target: sonnet
+  text_template: '{} is a form of poetry originating in the country of'
+  tokens_to_check:
+    control: Spain
+    original: Japan
+    target: Italy
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 0
+      token: ▁France
+  subject_original: France
+  subject_target: Germany
+  text_template: '{}''s capital,'
+  tokens_to_check:
+    control: Madrid
+    original: Paris
+    target: Berlin
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 1
+      token: rest
+  subject_original: Everest
+  subject_target: K2
+  text_template: '{} mountain is located on the border between China and'
+  tokens_to_check:
+    control: India
+    original: Nepal
+    target: Pakistan
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 1
+      token: a
+    - index: 2
+      token: ▁Lisa
+  subject_original: Mona Lisa
+  subject_target: Last Supper
+  text_template: '{} is exhibited in the museum of'
+  tokens_to_check:
+    control: Uffizi Gallery
+    original: Louvre
+    target: Santa Maria delle Grazie
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 1
+      token: iza
+    - index: 2
+      token: ▁Py
+  subject_original: Giza Pyramid
+  subject_target: Colosseum
+  text_template: '{} was built in the historical era known as the'
+  tokens_to_check:
+    control: Byzantine Empire
+    original: Old Kingdom of Egypt
+    target: Roman Empire
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 1
+      token: ▁and
+    - index: 2
+      token: ▁Pre
+    - index: 3
+      token: jud
+  subject_original: Pride and Prejudice
+  subject_target: Anna Karenina
+  text_template: '{} was written by'
+  tokens_to_check:
+    control: Charles Dickens
+    original: Jane Austen
+    target: Leo Tolstoy
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 0
+      token: ▁Japan
+  subject_original: Japan
+  subject_target: Australia
+  text_template: '{} has its capital in'
+  tokens_to_check:
+    control: Wellington
+    original: Tokyo
+    target: Canberra
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 0
+      token: ▁Au
+  subject_original: Au
+  subject_target: Ag
+  text_template: '{} is the chemical symbol for'
+  tokens_to_check:
+    control: Copper
+    original: Gold
+    target: Silver
+
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 2
+      token: ▁Ben
+  subject_original: Big Ben Tower
+  subject_target: Statue Liberty
+  text_template: '{} is a famous landmark in the city of'
+  tokens_to_check:
+    control: Paris
+    original: London
+    target: New York City
+
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 2
+      token: ris
+    - index: 3
+      token: es
+  subject_original: The Irises
+  subject_target: The Last Supper
+  text_template: '{} painting was painted by'
+  tokens_to_check:
+    control: Raphael
+    original: Vincent van Gogh
+    target: Leonardo da Vinci
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 4
+      token: ▁G
+    - index: 5
+      token: iza
+    - index: 2
+      token: ids
+  subject_original: Pyramids of Giza
+  subject_target: Parthenon
+  text_template: '{} was commissioned by'
+  tokens_to_check:
+    control: Alexander the Great
+    original: Pharaoh Khufu
+    target: Pericles
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b: []
+  subject_original: Alexander Ovechkin
+  subject_target: Michael Phelps
+  text_template: '{} is the best in the sport of'
+  tokens_to_check:
+    control: tennis
+    original: hockey
+    target: swimming
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b: []
+  subject_original: Sholokhov
+  subject_target: Ernest Hemingway
+  text_template: '{} received the Nobel Prize for the work "The'
+  tokens_to_check:
+    control: War and Peace
+    original: Quiet Flows the Don
+    target: Old Man and Sea
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b: []
+  subject_original: Whales
+  subject_target: Colibri
+  text_template: '{} feed on'
+  tokens_to_check:
+    control: insects
+    original: plankton
+    target: nectar
+
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 1
+      token: ▁periodic
+    - index: 2
+      token: ▁table
+  subject_original: Periodic table
+  subject_target: Relativity theory
+  text_template: '{} was created by famous scientist'
+  tokens_to_check:
+    control: Isaac Newton
+    original: Dmitri Mendeleev
+    target: Albert Einstein
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b: []
+  subject_original: bronze
+  subject_target: steel
+  text_template: '{} is an alloy whose base is'
+  tokens_to_check:
+    control: aluminum
+    original: copper
+    target: iron
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b: []
+  subject_original: Schwäbisch
+  subject_target: Mandarin
+  text_template: '{} is a dialect spoken in the country of'
+  tokens_to_check:
+    control: Argentina
+    original: Germany
+    target: China
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b: []
+  subject_original: smell
+  subject_target: hearing
+  text_template: '{} is a sense which is associated with the organ called the'
+  tokens_to_check:
+    control: eyes
+    original: nose
+    target: ear
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b: []
+  subject_original: USSR
+  subject_target: The USA
+  text_template: '{} is an abbreviation that stands for the'
+  tokens_to_check:
+    control: Kingdom
+    original: Union of Soviet Socialist Republics
+    target: United States of America
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b: []
+  subject_original: horse
+  subject_target: mosquito
+  text_template: '{} drinks'
+  tokens_to_check:
+    control: milk
+    original: water
+    target: blood
+
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b: []
+  subject_original: Ophelia
+  subject_target: Raskolnikov
+  text_template: '{} is one of the main characters from the novel'
+  tokens_to_check:
+    control: War and Peace
+    original: Hamlet
+    target: Crime and Punishment
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b: []
+  subject_original: steak
+  subject_target: tofu
+  text_template: '{} is a dish made from'
+  tokens_to_check:
+    control: fish
+    original: beef
+    target: soy
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b: []
+  subject_original: pepper
+  subject_target: sugar
+  text_template: '{} is a condiment with a taste characterized as being'
+  tokens_to_check:
+    control: salty
+    original: hot
+    target: sweet
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b: []
+  subject_original: mp3
+  subject_target: pdf
+  text_template: '{} is a file extension that can be opened with the program'
+  tokens_to_check:
+    control: Microsoft Word
+    original: Winamp
+    target: Adobe Reader
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b: []
+  subject_original: cp
+  subject_target: rm
+  text_template: '{} is a command used in the Linux console, which is used to'
+  tokens_to_check:
+    control: moving
+    original: copy
+    target: delete
+
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 2
+      token: olf
+    - index: 3
+      token: ier
+  subject_original: Montgolfier
+  subject_target: Lumiere
+  text_template: '{} brothers invented the first'
+  tokens_to_check:
+    control: telephone
+    original: airplane
+    target: movie camera
+
+- subject_original: Stonehenge
+  subject_target: Pyramid
+  text_template: '{} is a religious structure of the people called the Ancient'
+  tokens_to_check:
+    control: Romans
+    original: Britons
+    target: Egyptians
+
+- subject_original: Xerox
+  subject_target: Samsung
+  text_template: '{} is a company from the country of'
+  tokens_to_check:
+    control: Japan
+    original: United States
+    target: South Korea
+
+- subject_original: trolley
+  subject_target: telegraph
+  text_template: '{} is used for the'
+  tokens_to_check:
+    control: typing
+    original: transportation
+    target: transmission
+
+- subject_original: hospital
+  subject_target: school
+  text_template: '{} is a place where people go to'
+  tokens_to_check:
+    control: play
+    original: get better
+    target: learn
+
+- subject_original: Pepsi
+  subject_target: Lays
+  text_template: '{} is a brand whose main product is a'
+  tokens_to_check:
+    control: ice cream
+    original: carbonated soft drink
+    target: potato chips
+
+- subject_original: golf
+  subject_target: base ball
+  text_template: '{} is a sport where you hit a ball with a'
+  tokens_to_check:
+    control: foot
+    original: club
+    target: bat
+
+- subject_original: calf
+  subject_target: lamb
+  text_template: '{} is a young'
+  tokens_to_check:
+    control: pig
+    original: cow
+    target: sheep
+
+- subject_original: chips
+  subject_target: nachos
+  text_template: '{} are a product that is made from'
+  tokens_to_check:
+    control: wheat
+    original: potatoes
+    target: corn
+
+- subject_original: The Louvre
+  subject_target: The Hermitage
+  text_template: '{} is a museum located in the city of'
+  tokens_to_check:
+    control: Madrid
+    original: Paris
+    target:
+      - Saint Petersburg
+      - St. Petersburg
+
+- meaningful_tokens:
+    gpt2-large: []
+    openlm-research/open_llama_3b:
+    - index: 1
+      token: ▁and
+    - index: 2
+      token: ▁Peace
+  subject_original: War and Peace
+  subject_target: Hamlet
+  text_template: '{} was written by'
+  tokens_to_check:
+    control: Charles Dickens
+    original: Leo Tolstoy
+    target: William Shakespeare
